@@ -2,7 +2,7 @@
 (function() {
     async function checkSuccess() {
       try {
-        const response = await fetch('success.json');
+        const response = await fetch('https://torgomyan01.github.io/success/mosco/success.json');
         const data = await response.json();
   
         if (data.success) {
